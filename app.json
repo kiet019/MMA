@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Sepora",
+    "runtimeVersion": "1.0.0",
+    "slug": "skincare-product-sales-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.huynhdinhluyenorg.skincareproductsalesmobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.huynhdinhluyenorg.skincareproductsalesmobile"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a37255b-c808-4953-8719-3c543213dfe6"
+      }
+    },
+    "owner": "huynhdinhluyen-org",
+    "updates": {
+      "url": "https://u.expo.dev/4a37255b-c808-4953-8719-3c543213dfe6"
+    }
+    
+  }
+}
